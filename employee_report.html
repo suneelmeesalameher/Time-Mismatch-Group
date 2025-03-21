@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #000000;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(odd) {
+            background-color: #fff;
+        }
+        td {
+            background-color: #f9f9f9;
+        }
+        td.error {
+            background-color: #f44336; /* Red for errors */
+            color: white;
+        }
+        td.no-mismatch {
+            background-color: #4CAF50; /* Green for no issues */
+            color: white;
+        }
+        td.not-scheduled {
+            background-color: #333; /* Black for not scheduled */
+            color: white;
+        }
+        td.mismatch {
+            background-color: #FF9800; /* Orange for mismatch */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<h1>Employee Report February 24, 2025 - February 28, 2025</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+    </thead>
+    <tbody>
+<tr><td>Alma Landaverde</td><td class='no-mismatch'>No Mismatch</td><td class='no-mismatch'>No Mismatch</td><td class='no-mismatch'>No Mismatch</td><td class='error'>Time mismatch on Thursday February 27, 2025: Clocked out late by 0 hrs 2 mins 0 secs.</td><td class='no-mismatch'>No Mismatch</td></tr><tr><td>MeherSuneel Meesala</td><td class='error'>Didn't work on Monday, February 24, 2025.</td><td class='no-mismatch'>No Mismatch</td><td class='no-mismatch'>No Mismatch</td><td class='error'>Worked on Thursday, February 27, 2025 when not scheduled. Worked 7 hrs 0 mins.</td><td class='no-mismatch'>No Mismatch</td></tr></tbody></table></body></html>
