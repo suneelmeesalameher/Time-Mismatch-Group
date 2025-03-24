@@ -1,30 +1,31 @@
 from datetime import datetime, timedelta
+from Get_details_from_csv import EXPECTED_SCHEDULE
 import os
 
-EXPECTED_SCHEDULE = [
-    {
-        "first_name": "Alma",
-        "last_name": "Landaverde",
-        "Schedule": {
-            "Monday": ("9:00 AM", "1:00 PM"),
-            "Tuesday": (None, None),
-            "Wednesday": ("9:00 AM", "1:00 PM"),
-            "Thursday": ("9:00 AM", "1:00 PM"),
-            "Friday": (None, None)
-        }
-    },
-    {
-        "first_name": "MeherSuneel",
-        "last_name": "Meesala",
-        "Schedule": {
-            "Monday": ("9:00 AM", "4:00 PM"),
-            "Tuesday": (None, None),
-            "Wednesday": ("9:00 AM", "4:00 PM"),
-            "Thursday": (None, None),
-            "Friday": ("9:00 AM", "4:00 PM")
-        }
-    }
-]
+#EXPECTED_SCHEDULE = [
+#    {
+#        "first_name": "Alma",
+#        "last_name": "Landaverde",
+#        "Schedule": {
+#            "Monday": ("9:00 AM", "1:00 PM"),
+#            "Tuesday": (None, None),
+#            "Wednesday": ("9:00 AM", "1:00 PM"),
+#            "Thursday": ("9:00 AM", "1:00 PM"),
+#            "Friday": (None, None)
+#        }
+#    },
+#    {
+#        "first_name": "MeherSuneel",
+#        "last_name": "Meesala",
+#        "Schedule": {
+#            "Monday": ("9:00 AM", "4:00 PM"),
+#            "Tuesday": (None, None),
+#            "Wednesday": ("9:00 AM", "4:00 PM"),
+#            "Thursday": (None, None),
+#            "Friday": ("9:00 AM", "4:00 PM")
+#        }
+#    }
+#]
 
 
 # Your existing JSON body
