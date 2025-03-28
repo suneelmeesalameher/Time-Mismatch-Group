@@ -25,6 +25,7 @@ To install the required dependencies, you can use the following command:
 
 ```bash
     pip install pandas
+```bash
 
 
 
