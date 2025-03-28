@@ -24,7 +24,9 @@ The script requires the following Python libraries:
 To install the required dependencies, you can use the following command:
 
 ```bash
-pip install pandas
+    pip install pandas
+
+
 
 ## Script Overview
 
