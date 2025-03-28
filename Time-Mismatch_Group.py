@@ -32,86 +32,1070 @@ import os
 json_body ={
   "response": "success",
   "employee": 0,
-  "date_range_start": "2025-02-24 00:00:00",
-  "date_range_end": "2025-02-28 22:00:00",
+  "date_range_start": "2025-03-24 00:00:00",
+  "date_range_end": "2025-03-28 22:00:00",
   "report_action": "generate_report",
   "shifts": {
     "response": "success",
-    "shift_count": 9,
-    "shift_total_time": "33:02",
+    "shift_count": 132,
+    "shift_total_time": "522:52",
     "wage_total": "0.00",
     "shift_array": [
       {
-        "shift_id": 27492,
-        "employee_clock_in_time": "February 26, 2025 9:00 am",
-        "employee_clock_out_time": "February 26, 2025 1:00 pm",
-        "first_name": "Alma",
-        "last_name": "Landaverde",
-        "shift_sum": "4:00"
+        "shift_id": 28341,
+        "employee_clock_in_time": "March 25, 2025 12:00 pm",
+        "employee_clock_out_time": "March 25, 2025 7:00 pm",
+        "first_name": "Jayaprakash",
+        "last_name": "Vangala",
+        "shift_sum": "7:00"
       },
       {
-        "shift_id": 27462,
-        "employee_clock_in_time": "February 27, 2025 9:00 am",
-        "employee_clock_out_time": "February 27, 2025 1:02 pm",
-        "first_name": "Alma",
-        "last_name": "Landaverde",
-        "shift_sum": "4:02"
+        "shift_id": 28340,
+        "employee_clock_in_time": "March 26, 2025 9:00 am",
+        "employee_clock_out_time": "March 26, 2025 4:00 pm",
+        "first_name": "Rakshitha Reddy",
+        "last_name": "Potu",
+        "shift_sum": "7:00"
       },
       {
-        "shift_id": 27436,
-        "employee_clock_in_time": "February 24, 2025 9:00 am",
-        "employee_clock_out_time": "February 24, 2025 1:00 pm",
-        "first_name": "Alma",
-        "last_name": "Landaverde",
-        "shift_sum": "4:00"
+        "shift_id": 28339,
+        "employee_clock_in_time": "March 26, 2025 10:00 am",
+        "employee_clock_out_time": "March 26, 2025 5:00 pm",
+        "first_name": "Nithish Reddy",
+        "last_name": "Mannem",
+        "shift_sum": "7:00"
       },
       {
-        "shift_id": 27421,
-        "employee_clock_in_time": "February 26, 2025 12:59 pm",
-        "employee_clock_out_time": "February 26, 2025 12:59 pm",
-        "first_name": "Alma",
-        "last_name": "Landaverde",
-        "shift_sum": "0:00"
+        "shift_id": 28338,
+        "employee_clock_in_time": "March 26, 2025 8:00 am",
+        "employee_clock_out_time": "March 26, 2025 6:00 pm",
+        "first_name": "Aanu",
+        "last_name": "Adewusi",
+        "shift_sum": "10:00"
       },
       {
-        "shift_id": 27406,
-        "employee_clock_in_time": "February 26, 2025 9:01 am",
+        "shift_id": 28337,
+        "employee_clock_in_time": "March 25, 2025 8:00 am",
+        "employee_clock_out_time": "March 25, 2025 9:30 pm",
+        "first_name": "Aanu",
+        "last_name": "Adewusi",
+        "shift_sum": "13:30"
+      },
+      {
+        "shift_id": 28336,
+        "employee_clock_in_time": "March 24, 2025 8:00 am",
+        "employee_clock_out_time": "March 24, 2025 9:30 pm",
+        "first_name": "Aanu",
+        "last_name": "Adewusi",
+        "shift_sum": "13:30"
+      },
+      {
+        "shift_id": 28332,
+        "employee_clock_in_time": "March 26, 2025 1:00 pm",
+        "employee_clock_out_time": "March 26, 2025 6:00 pm",
+        "first_name": "Sree Lakshmi",
+        "last_name": "Akella",
+        "shift_sum": "5:00"
+      },
+      {
+        "shift_id": 28331,
+        "employee_clock_in_time": "March 26, 2025 11:00 am",
+        "employee_clock_out_time": "March 26, 2025 6:00 pm",
+        "first_name": "Kalind",
+        "last_name": "Joshi",
+        "shift_sum": "7:00"
+      },
+      {
+        "shift_id": 28329,
+        "employee_clock_in_time": "March 26, 2025 9:00 am",
+        "employee_clock_out_time": "March 26, 2025 4:00 pm",
+        "first_name": "MeherSuneel",
+        "last_name": "Meesala",
+        "shift_sum": "7:00"
+      },
+      {
+        "shift_id": 28328,
+        "employee_clock_in_time": "March 28, 2025 11:00 am",
         "employee_clock_out_time": None,
-        "first_name": "Alma",
-        "last_name": "Landaverde",
+        "first_name": "Jisha",
+        "last_name": "Sheelakumar",
         "shift_sum": "00:00"
       },
       {
-        "shift_id": 27309,
-        "employee_clock_in_time": "February 24, 2025 11:29 pm",
-        "employee_clock_out_time": "February 24, 2025 11:29 pm",
-        "first_name": "Alma",
-        "last_name": "Landaverde",
+        "shift_id": 28327,
+        "employee_clock_in_time": "March 28, 2025 10:56 am",
+        "employee_clock_out_time": None,
+        "first_name": "Chandrashakar",
+        "last_name": "Gudipally",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28322,
+        "employee_clock_in_time": "March 28, 2025 9:03 am",
+        "employee_clock_out_time": None,
+        "first_name": "Neelima",
+        "last_name": "Palleboina",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28321,
+        "employee_clock_in_time": "March 28, 2025 9:02 am",
+        "employee_clock_out_time": None,
+        "first_name": "Samyukta",
+        "last_name": "Padmanabhuni",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28320,
+        "employee_clock_in_time": "March 28, 2025 9:00 am",
+        "employee_clock_out_time": None,
+        "first_name": "Shreya",
+        "last_name": "Edulakanti",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28319,
+        "employee_clock_in_time": "March 28, 2025 9:00 am",
+        "employee_clock_out_time": None,
+        "first_name": "MeherSuneel",
+        "last_name": "Meesala",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28311,
+        "employee_clock_in_time": "March 27, 2025 3:22 pm",
+        "employee_clock_out_time": None,
+        "first_name": "Sanath",
+        "last_name": "Desai",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28310,
+        "employee_clock_in_time": "March 27, 2025 3:01 pm",
+        "employee_clock_out_time": None,
+        "first_name": "Adarsh",
+        "last_name": "Devineni",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28308,
+        "employee_clock_in_time": "March 27, 2025 12:59 pm",
+        "employee_clock_out_time": "March 27, 2025 6:04 pm",
+        "first_name": "Sagar Naidu",
+        "last_name": "Potana",
+        "shift_sum": "5:05"
+      },
+      {
+        "shift_id": 28301,
+        "employee_clock_in_time": "March 27, 2025 12:03 pm",
+        "employee_clock_out_time": "March 27, 2025 5:03 pm",
+        "first_name": "Nigama",
+        "last_name": "Dendukuri",
+        "shift_sum": "5:00"
+      },
+      {
+        "shift_id": 28300,
+        "employee_clock_in_time": "March 27, 2025 11:57 am",
+        "employee_clock_out_time": "March 27, 2025 4:52 pm",
+        "first_name": "Sai Venkata",
+        "last_name": "Dhanush Amirinenii",
+        "shift_sum": "4:54"
+      },
+      {
+        "shift_id": 28299,
+        "employee_clock_in_time": "March 27, 2025 11:43 am",
+        "employee_clock_out_time": "March 27, 2025 7:47 pm",
+        "first_name": "Ayush",
+        "last_name": "Kattupalli",
+        "shift_sum": "8:04"
+      },
+      {
+        "shift_id": 28297,
+        "employee_clock_in_time": "March 27, 2025 10:01 am",
+        "employee_clock_out_time": "March 27, 2025 3:15 pm",
+        "first_name": "Sanath",
+        "last_name": "Desai",
+        "shift_sum": "5:13"
+      },
+      {
+        "shift_id": 28296,
+        "employee_clock_in_time": "March 27, 2025 10:00 am",
+        "employee_clock_out_time": None,
+        "first_name": "Sai",
+        "last_name": "Shivani",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28295,
+        "employee_clock_in_time": "March 27, 2025 10:00 am",
+        "employee_clock_out_time": "March 27, 2025 5:03 pm",
+        "first_name": "Nithish Reddy",
+        "last_name": "Mannem",
+        "shift_sum": "7:03"
+      },
+      {
+        "shift_id": 28294,
+        "employee_clock_in_time": "March 27, 2025 9:48 am",
+        "employee_clock_out_time": "March 27, 2025 2:13 pm",
+        "first_name": "Ru",
+        "last_name": "Chen",
+        "shift_sum": "4:25"
+      },
+      {
+        "shift_id": 28293,
+        "employee_clock_in_time": "March 27, 2025 9:04 am",
+        "employee_clock_out_time": "March 27, 2025 4:10 pm",
+        "first_name": "Neelima",
+        "last_name": "Palleboina",
+        "shift_sum": "7:05"
+      },
+      {
+        "shift_id": 28292,
+        "employee_clock_in_time": "March 27, 2025 9:04 am",
+        "employee_clock_out_time": "March 27, 2025 5:03 pm",
+        "first_name": "Samyukta",
+        "last_name": "Padmanabhuni",
+        "shift_sum": "7:59"
+      },
+      {
+        "shift_id": 28291,
+        "employee_clock_in_time": "March 27, 2025 8:59 am",
+        "employee_clock_out_time": "March 27, 2025 1:00 pm",
+        "first_name": "Shreya",
+        "last_name": "Edulakanti",
+        "shift_sum": "4:01"
+      },
+      {
+        "shift_id": 28290,
+        "employee_clock_in_time": "March 27, 2025 8:59 am",
+        "employee_clock_out_time": "March 27, 2025 1:59 pm",
+        "first_name": "Haren",
+        "last_name": "Akula",
+        "shift_sum": "5:00"
+      },
+      {
+        "shift_id": 28289,
+        "employee_clock_in_time": "March 27, 2025 8:58 am",
+        "employee_clock_out_time": "March 27, 2025 2:03 pm",
+        "first_name": "Celeste",
+        "last_name": "Nascimento",
+        "shift_sum": "5:04"
+      },
+      {
+        "shift_id": 28288,
+        "employee_clock_in_time": "March 27, 2025 8:57 am",
+        "employee_clock_out_time": None,
+        "first_name": "Aanu",
+        "last_name": "Adewusi",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28287,
+        "employee_clock_in_time": "March 27, 2025 8:30 am",
+        "employee_clock_out_time": "March 27, 2025 2:35 pm",
+        "first_name": "Prateeksha",
+        "last_name": "Gawande",
+        "shift_sum": "6:04"
+      },
+      {
+        "shift_id": 28286,
+        "employee_clock_in_time": "March 27, 2025 8:00 am",
+        "employee_clock_out_time": "March 27, 2025 1:00 pm",
+        "first_name": "Sree Lakshmi",
+        "last_name": "Akella",
+        "shift_sum": "4:59"
+      },
+      {
+        "shift_id": 28283,
+        "employee_clock_in_time": "March 25, 2025 9:00 am",
+        "employee_clock_out_time": "March 25, 2025 2:00 pm",
+        "first_name": "Ru",
+        "last_name": "Chen",
+        "shift_sum": "5:00"
+      },
+      {
+        "shift_id": 28282,
+        "employee_clock_in_time": "March 24, 2025 9:00 am",
+        "employee_clock_out_time": "March 24, 2025 2:00 pm",
+        "first_name": "Ru",
+        "last_name": "Chen",
+        "shift_sum": "5:00"
+      },
+      {
+        "shift_id": 28281,
+        "employee_clock_in_time": "March 26, 2025 4:05 pm",
+        "employee_clock_out_time": "March 26, 2025 4:05 pm",
+        "first_name": "Rakshitha Reddy",
+        "last_name": "Potu",
         "shift_sum": "0:00"
       },
       {
-        "shift_id": 27779,
-        "employee_clock_in_time": "February 28, 2025 9:00 am",
-        "employee_clock_out_time": "February 28, 2025 4:00 pm",
+        "shift_id": 28280,
+        "employee_clock_in_time": "March 26, 2025 4:03 pm",
+        "employee_clock_out_time": "March 26, 2025 4:04 pm",
+        "first_name": "Savana",
+        "last_name": "Patel",
+        "shift_sum": "0:00"
+      },
+      {
+        "shift_id": 28279,
+        "employee_clock_in_time": "March 26, 2025 3:21 pm",
+        "employee_clock_out_time": "March 26, 2025 4:57 pm",
+        "first_name": "Jessica",
+        "last_name": "Vigil",
+        "shift_sum": "1:35"
+      },
+      {
+        "shift_id": 28277,
+        "employee_clock_in_time": "March 26, 2025 2:44 pm",
+        "employee_clock_out_time": "March 26, 2025 6:02 pm",
+        "first_name": "Aanu",
+        "last_name": "Adewusi",
+        "shift_sum": "3:17"
+      },
+      {
+        "shift_id": 28276,
+        "employee_clock_in_time": "March 26, 2025 2:24 pm",
+        "employee_clock_out_time": "March 26, 2025 4:56 pm",
+        "first_name": "Sarah",
+        "last_name": "Patil",
+        "shift_sum": "2:31"
+      },
+      {
+        "shift_id": 28274,
+        "employee_clock_in_time": "March 25, 2025 9:14 am",
+        "employee_clock_out_time": "March 25, 2025 3:10 pm",
+        "first_name": "Sarah",
+        "last_name": "Patil",
+        "shift_sum": "5:56"
+      },
+      {
+        "shift_id": 28273,
+        "employee_clock_in_time": "March 25, 2025 9:00 am",
+        "employee_clock_out_time": "March 25, 2025 5:00 pm",
+        "first_name": "Shreya",
+        "last_name": "Edulakanti",
+        "shift_sum": "8:00"
+      },
+      {
+        "shift_id": 28272,
+        "employee_clock_in_time": "March 25, 2025 10:00 am",
+        "employee_clock_out_time": "March 25, 2025 3:00 pm",
+        "first_name": "Almatou",
+        "last_name": "SARE",
+        "shift_sum": "5:00"
+      },
+      {
+        "shift_id": 28271,
+        "employee_clock_in_time": "March 26, 2025 1:12 pm",
+        "employee_clock_out_time": "March 26, 2025 6:29 pm",
+        "first_name": "Sree Lakshmi",
+        "last_name": "Akella",
+        "shift_sum": "5:17"
+      },
+      {
+        "shift_id": 28270,
+        "employee_clock_in_time": "March 26, 2025 1:00 pm",
+        "employee_clock_out_time": "March 26, 2025 6:04 pm",
+        "first_name": "Sagar Naidu",
+        "last_name": "Potana",
+        "shift_sum": "5:03"
+      },
+      {
+        "shift_id": 28269,
+        "employee_clock_in_time": "March 26, 2025 12:27 pm",
+        "employee_clock_out_time": "March 26, 2025 1:57 pm",
+        "first_name": "Jessica",
+        "last_name": "Vigil",
+        "shift_sum": "1:29"
+      },
+      {
+        "shift_id": 28268,
+        "employee_clock_in_time": "March 26, 2025 12:14 pm",
+        "employee_clock_out_time": "March 26, 2025 5:00 pm",
+        "first_name": "Sai Swethan",
+        "last_name": "Durganala",
+        "shift_sum": "4:45"
+      },
+      {
+        "shift_id": 28267,
+        "employee_clock_in_time": "March 26, 2025 12:11 pm",
+        "employee_clock_out_time": "March 26, 2025 5:18 pm",
+        "first_name": "Nigama",
+        "last_name": "Dendukuri",
+        "shift_sum": "5:06"
+      },
+      {
+        "shift_id": 28266,
+        "employee_clock_in_time": "March 26, 2025 11:59 am",
+        "employee_clock_out_time": "March 26, 2025 5:38 pm",
+        "first_name": "Smita",
+        "last_name": "Aghav",
+        "shift_sum": "5:38"
+      },
+      {
+        "shift_id": 28265,
+        "employee_clock_in_time": "March 26, 2025 11:56 am",
+        "employee_clock_out_time": "March 26, 2025 6:59 pm",
+        "first_name": "Shubhika",
+        "last_name": "Gupta",
+        "shift_sum": "7:03"
+      },
+      {
+        "shift_id": 28264,
+        "employee_clock_in_time": "March 26, 2025 11:41 am",
+        "employee_clock_out_time": None,
+        "first_name": "Savana",
+        "last_name": "Patel",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28263,
+        "employee_clock_in_time": "March 26, 2025 11:35 am",
+        "employee_clock_out_time": "March 26, 2025 1:01 pm",
+        "first_name": "valerie",
+        "last_name": "Osaweedoh",
+        "shift_sum": "1:26"
+      },
+      {
+        "shift_id": 28262,
+        "employee_clock_in_time": "March 26, 2025 11:02 am",
+        "employee_clock_out_time": None,
+        "first_name": "Kalind",
+        "last_name": "Joshi",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28261,
+        "employee_clock_in_time": "March 26, 2025 11:01 am",
+        "employee_clock_out_time": "March 26, 2025 6:02 pm",
+        "first_name": "Jisha",
+        "last_name": "Sheelakumar",
+        "shift_sum": "7:00"
+      },
+      {
+        "shift_id": 28260,
+        "employee_clock_in_time": "March 26, 2025 10:13 am",
+        "employee_clock_out_time": "March 26, 2025 3:34 pm",
+        "first_name": "Sai Venkata",
+        "last_name": "Dhanush Amirinenii",
+        "shift_sum": "5:20"
+      },
+      {
+        "shift_id": 28259,
+        "employee_clock_in_time": "March 26, 2025 10:04 am",
+        "employee_clock_out_time": "March 26, 2025 3:04 pm",
+        "first_name": "Sanath",
+        "last_name": "Desai",
+        "shift_sum": "5:00"
+      },
+      {
+        "shift_id": 28258,
+        "employee_clock_in_time": "March 26, 2025 10:03 am",
+        "employee_clock_out_time": None,
+        "first_name": "Adarsh",
+        "last_name": "Devineni",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28257,
+        "employee_clock_in_time": "March 26, 2025 10:00 am",
+        "employee_clock_out_time": "March 26, 2025 2:01 pm",
+        "first_name": "Shreya",
+        "last_name": "Edulakanti",
+        "shift_sum": "4:00"
+      },
+      {
+        "shift_id": 28256,
+        "employee_clock_in_time": "March 26, 2025 10:00 am",
+        "employee_clock_out_time": None,
+        "first_name": "Nithish Reddy",
+        "last_name": "Mannem",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28255,
+        "employee_clock_in_time": "March 26, 2025 9:13 am",
+        "employee_clock_out_time": "March 26, 2025 2:29 pm",
+        "first_name": "Ru",
+        "last_name": "Chen",
+        "shift_sum": "5:16"
+      },
+      {
+        "shift_id": 28254,
+        "employee_clock_in_time": "March 26, 2025 9:05 am",
+        "employee_clock_out_time": None,
+        "first_name": "Sarah",
+        "last_name": "Patil",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28253,
+        "employee_clock_in_time": "March 26, 2025 9:02 am",
+        "employee_clock_out_time": "March 26, 2025 4:03 pm",
+        "first_name": "Hepsiba Grace",
+        "last_name": "Boddu",
+        "shift_sum": "7:01"
+      },
+      {
+        "shift_id": 28252,
+        "employee_clock_in_time": "March 26, 2025 9:01 am",
+        "employee_clock_out_time": None,
+        "first_name": "Rakshitha Reddy",
+        "last_name": "Potu",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28251,
+        "employee_clock_in_time": "March 26, 2025 9:00 am",
+        "employee_clock_out_time": "March 26, 2025 5:01 pm",
+        "first_name": "Samyukta",
+        "last_name": "Padmanabhuni",
+        "shift_sum": "8:01"
+      },
+      {
+        "shift_id": 28250,
+        "employee_clock_in_time": "March 26, 2025 8:58 am",
+        "employee_clock_out_time": "March 26, 2025 1:59 pm",
+        "first_name": "Haren",
+        "last_name": "Akula",
+        "shift_sum": "5:00"
+      },
+      {
+        "shift_id": 28249,
+        "employee_clock_in_time": "March 26, 2025 8:56 am",
+        "employee_clock_out_time": "March 26, 2025 2:59 pm",
+        "first_name": "Arpita",
+        "last_name": "Arpita LNU",
+        "shift_sum": "6:02"
+      },
+      {
+        "shift_id": 28248,
+        "employee_clock_in_time": "March 26, 2025 8:30 am",
+        "employee_clock_out_time": "March 26, 2025 3:33 pm",
+        "first_name": "Prateeksha",
+        "last_name": "Gawande",
+        "shift_sum": "7:02"
+      },
+      {
+        "shift_id": 28247,
+        "employee_clock_in_time": "March 25, 2025 7:27 pm",
+        "employee_clock_out_time": "March 25, 2025 7:27 pm",
+        "first_name": "Jonathan.",
+        "last_name": "Almeida",
+        "shift_sum": "0:00"
+      },
+      {
+        "shift_id": 28236,
+        "employee_clock_in_time": "March 25, 2025 3:10 pm",
+        "employee_clock_out_time": "March 25, 2025 3:10 pm",
+        "first_name": "Sarah",
+        "last_name": "Patil",
+        "shift_sum": "0:00"
+      },
+      {
+        "shift_id": 28235,
+        "employee_clock_in_time": "March 25, 2025 2:07 pm",
+        "employee_clock_out_time": "March 25, 2025 5:08 pm",
+        "first_name": "Jessica",
+        "last_name": "Vigil",
+        "shift_sum": "3:00"
+      },
+      {
+        "shift_id": 28226,
+        "employee_clock_in_time": "March 25, 2025 1:00 pm",
+        "employee_clock_out_time": "March 25, 2025 6:03 pm",
+        "first_name": "Sagar Naidu",
+        "last_name": "Potana",
+        "shift_sum": "5:02"
+      },
+      {
+        "shift_id": 28224,
+        "employee_clock_in_time": "March 24, 2025 9:05 am",
+        "employee_clock_out_time": "March 24, 2025 3:05 pm",
+        "first_name": "sarah",
+        "last_name": "janeway",
+        "shift_sum": "6:00"
+      },
+      {
+        "shift_id": 28223,
+        "employee_clock_in_time": "March 25, 2025 12:01 pm",
+        "employee_clock_out_time": "March 25, 2025 5:01 pm",
+        "first_name": "Nigama",
+        "last_name": "Dendukuri",
+        "shift_sum": "4:59"
+      },
+      {
+        "shift_id": 28222,
+        "employee_clock_in_time": "March 25, 2025 11:59 am",
+        "employee_clock_out_time": "March 25, 2025 5:18 pm",
+        "first_name": "Ayush",
+        "last_name": "Kattupalli",
+        "shift_sum": "5:19"
+      },
+      {
+        "shift_id": 28221,
+        "employee_clock_in_time": "March 25, 2025 11:51 am",
+        "employee_clock_out_time": "March 25, 2025 6:56 pm",
+        "first_name": "",
+        "last_name": "",
+        "shift_sum": "7:05"
+      },
+      {
+        "shift_id": 28218,
+        "employee_clock_in_time": "March 25, 2025 11:19 am",
+        "employee_clock_out_time": "March 25, 2025 6:19 pm",
+        "first_name": "Kalind",
+        "last_name": "Joshi",
+        "shift_sum": "6:59"
+      },
+      {
+        "shift_id": 28216,
+        "employee_clock_in_time": "March 25, 2025 11:15 am",
+        "employee_clock_out_time": None,
+        "first_name": "Aanu",
+        "last_name": "Adewusi",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28215,
+        "employee_clock_in_time": "March 25, 2025 10:55 am",
+        "employee_clock_out_time": "March 25, 2025 6:14 pm",
+        "first_name": "Nitant",
+        "last_name": "Jatale",
+        "shift_sum": "7:18"
+      },
+      {
+        "shift_id": 28212,
+        "employee_clock_in_time": "March 25, 2025 10:34 am",
+        "employee_clock_out_time": None,
+        "first_name": "Sai Venkata",
+        "last_name": "Dhanush Amirinenii",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28211,
+        "employee_clock_in_time": "March 25, 2025 10:05 am",
+        "employee_clock_out_time": "March 25, 2025 2:02 pm",
+        "first_name": "Ibiye",
+        "last_name": "Bright",
+        "shift_sum": "3:56"
+      },
+      {
+        "shift_id": 28210,
+        "employee_clock_in_time": "March 25, 2025 10:02 am",
+        "employee_clock_out_time": "March 25, 2025 3:02 pm",
+        "first_name": "Sanath",
+        "last_name": "Desai",
+        "shift_sum": "5:00"
+      },
+      {
+        "shift_id": 28209,
+        "employee_clock_in_time": "March 25, 2025 10:00 am",
+        "employee_clock_out_time": None,
+        "first_name": "Sai",
+        "last_name": "Shivani",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28208,
+        "employee_clock_in_time": "March 25, 2025 10:00 am",
+        "employee_clock_out_time": "March 25, 2025 5:00 pm",
+        "first_name": "Nithish Reddy",
+        "last_name": "Mannem",
+        "shift_sum": "6:59"
+      },
+      {
+        "shift_id": 28207,
+        "employee_clock_in_time": "March 25, 2025 10:00 am",
+        "employee_clock_out_time": "March 25, 2025 1:52 pm",
+        "first_name": "valerie",
+        "last_name": "Osaweedoh",
+        "shift_sum": "3:52"
+      },
+      {
+        "shift_id": 28206,
+        "employee_clock_in_time": "March 25, 2025 9:59 am",
+        "employee_clock_out_time": "March 25, 2025 3:01 pm",
+        "first_name": "McKenzie",
+        "last_name": "Lynn Kovach",
+        "shift_sum": "5:01"
+      },
+      {
+        "shift_id": 28205,
+        "employee_clock_in_time": "March 25, 2025 9:55 am",
+        "employee_clock_out_time": "March 25, 2025 4:55 pm",
+        "first_name": "Sai Swethan",
+        "last_name": "Durganala",
+        "shift_sum": "7:00"
+      },
+      {
+        "shift_id": 28204,
+        "employee_clock_in_time": "March 25, 2025 9:51 am",
+        "employee_clock_out_time": None,
+        "first_name": "Almatou",
+        "last_name": "SARE",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28202,
+        "employee_clock_in_time": "March 24, 2025 11:00 am",
+        "employee_clock_out_time": "March 24, 2025 6:00 pm",
+        "first_name": "Chandrashakar",
+        "last_name": "Gudipally",
+        "shift_sum": "7:00"
+      },
+      {
+        "shift_id": 28194,
+        "employee_clock_in_time": "March 25, 2025 9:15 am",
+        "employee_clock_out_time": "March 25, 2025 4:16 pm",
+        "first_name": "Hepsiba Grace",
+        "last_name": "Boddu",
+        "shift_sum": "7:01"
+      },
+      {
+        "shift_id": 28193,
+        "employee_clock_in_time": "March 25, 2025 9:14 am",
+        "employee_clock_out_time": None,
+        "first_name": "Sarah",
+        "last_name": "Patil",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28192,
+        "employee_clock_in_time": "March 25, 2025 9:00 am",
+        "employee_clock_out_time": "March 25, 2025 4:00 pm",
+        "first_name": "Neelima",
+        "last_name": "Palleboina",
+        "shift_sum": "7:00"
+      },
+      {
+        "shift_id": 28191,
+        "employee_clock_in_time": "March 25, 2025 9:05 am",
+        "employee_clock_out_time": "March 25, 2025 12:07 pm",
+        "first_name": "FNU",
+        "last_name": "Jannat",
+        "shift_sum": "3:02"
+      },
+      {
+        "shift_id": 28190,
+        "employee_clock_in_time": "March 25, 2025 9:01 am",
+        "employee_clock_out_time": "March 25, 2025 4:03 pm",
+        "first_name": "Rakshitha Reddy",
+        "last_name": "Potu",
+        "shift_sum": "7:01"
+      },
+      {
+        "shift_id": 28189,
+        "employee_clock_in_time": "March 25, 2025 9:01 am",
+        "employee_clock_out_time": "March 25, 2025 2:04 pm",
+        "first_name": "Celeste",
+        "last_name": "Nascimento",
+        "shift_sum": "5:02"
+      },
+      {
+        "shift_id": 28188,
+        "employee_clock_in_time": "March 25, 2025 9:00 am",
+        "employee_clock_out_time": "March 25, 2025 2:00 pm",
+        "first_name": "Haren",
+        "last_name": "Akula",
+        "shift_sum": "4:59"
+      },
+      {
+        "shift_id": 28187,
+        "employee_clock_in_time": "March 25, 2025 8:59 am",
+        "employee_clock_out_time": None,
+        "first_name": "Shreya",
+        "last_name": "Edulakanti",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28186,
+        "employee_clock_in_time": "March 25, 2025 8:57 am",
+        "employee_clock_out_time": "March 25, 2025 2:57 pm",
+        "first_name": "Arpita",
+        "last_name": "Arpita LNU",
+        "shift_sum": "6:00"
+      },
+      {
+        "shift_id": 28185,
+        "employee_clock_in_time": "March 25, 2025 8:55 am",
+        "employee_clock_out_time": None,
+        "first_name": "Jonathan.",
+        "last_name": "Almeida",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28184,
+        "employee_clock_in_time": "March 25, 2025 8:34 am",
+        "employee_clock_out_time": "March 25, 2025 3:36 pm",
+        "first_name": "Prateeksha",
+        "last_name": "Gawande",
+        "shift_sum": "7:02"
+      },
+      {
+        "shift_id": 28183,
+        "employee_clock_in_time": "March 25, 2025 7:59 am",
+        "employee_clock_out_time": "March 25, 2025 1:00 pm",
+        "first_name": "Sree Lakshmi",
+        "last_name": "Akella",
+        "shift_sum": "5:01"
+      },
+      {
+        "shift_id": 28182,
+        "employee_clock_in_time": "March 24, 2025 7:48 pm",
+        "employee_clock_out_time": "March 24, 2025 7:49 pm",
+        "first_name": "Jonathan.",
+        "last_name": "Almeida",
+        "shift_sum": "0:00"
+      },
+      {
+        "shift_id": 28178,
+        "employee_clock_in_time": "March 24, 2025 5:01 pm",
+        "employee_clock_out_time": "March 24, 2025 5:01 pm",
+        "first_name": "Nitant",
+        "last_name": "Jatale",
+        "shift_sum": "0:00"
+      },
+      {
+        "shift_id": 28177,
+        "employee_clock_in_time": "March 24, 2025 5:00 pm",
+        "employee_clock_out_time": None,
+        "first_name": "Aanu",
+        "last_name": "Adewusi",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28176,
+        "employee_clock_in_time": "March 24, 2025 4:17 pm",
+        "employee_clock_out_time": "March 24, 2025 4:17 pm",
+        "first_name": "Savana",
+        "last_name": "Patel",
+        "shift_sum": "0:00"
+      },
+      {
+        "shift_id": 28175,
+        "employee_clock_in_time": "March 24, 2025 3:59 pm",
+        "employee_clock_out_time": "March 24, 2025 7:01 pm",
+        "first_name": "Jessica",
+        "last_name": "Vigil",
+        "shift_sum": "3:02"
+      },
+      {
+        "shift_id": 28174,
+        "employee_clock_in_time": "March 24, 2025 3:05 pm",
+        "employee_clock_out_time": "March 24, 2025 3:05 pm",
+        "first_name": "Sarah",
+        "last_name": "Patil",
+        "shift_sum": "0:00"
+      },
+      {
+        "shift_id": 28145,
+        "employee_clock_in_time": "March 24, 2025 1:00 pm",
+        "employee_clock_out_time": "March 24, 2025 5:59 pm",
+        "first_name": "Sree Lakshmi",
+        "last_name": "Akella",
+        "shift_sum": "4:58"
+      },
+      {
+        "shift_id": 28144,
+        "employee_clock_in_time": "March 24, 2025 12:59 pm",
+        "employee_clock_out_time": "March 24, 2025 2:01 pm",
+        "first_name": "valerie",
+        "last_name": "Osaweedoh",
+        "shift_sum": "1:01"
+      },
+      {
+        "shift_id": 28143,
+        "employee_clock_in_time": "March 24, 2025 12:58 pm",
+        "employee_clock_out_time": "March 24, 2025 6:00 pm",
+        "first_name": "Sagar Naidu",
+        "last_name": "Potana",
+        "shift_sum": "5:02"
+      },
+      {
+        "shift_id": 28141,
+        "employee_clock_in_time": "March 24, 2025 12:12 pm",
+        "employee_clock_out_time": "March 24, 2025 5:25 pm",
+        "first_name": "Ayush",
+        "last_name": "Kattupalli",
+        "shift_sum": "5:13"
+      },
+      {
+        "shift_id": 28140,
+        "employee_clock_in_time": "March 24, 2025 12:01 pm",
+        "employee_clock_out_time": "March 24, 2025 6:02 pm",
+        "first_name": "Jisha",
+        "last_name": "Sheelakumar",
+        "shift_sum": "6:00"
+      },
+      {
+        "shift_id": 28139,
+        "employee_clock_in_time": "March 24, 2025 11:59 am",
+        "employee_clock_out_time": "March 24, 2025 7:00 pm",
+        "first_name": "Smita",
+        "last_name": "Aghav",
+        "shift_sum": "7:01"
+      },
+      {
+        "shift_id": 28138,
+        "employee_clock_in_time": "March 24, 2025 11:09 am",
+        "employee_clock_out_time": None,
+        "first_name": "Nitant",
+        "last_name": "Jatale",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28137,
+        "employee_clock_in_time": "March 24, 2025 11:00 am",
+        "employee_clock_out_time": "March 24, 2025 6:00 pm",
+        "first_name": "Kalind",
+        "last_name": "Joshi",
+        "shift_sum": "7:00"
+      },
+      {
+        "shift_id": 28136,
+        "employee_clock_in_time": "March 24, 2025 11:00 am",
+        "employee_clock_out_time": "March 24, 2025 1:56 pm",
+        "first_name": "FNU",
+        "last_name": "Jannat",
+        "shift_sum": "2:55"
+      },
+      {
+        "shift_id": 28135,
+        "employee_clock_in_time": "March 24, 2025 10:55 am",
+        "employee_clock_out_time": None,
+        "first_name": "Savana",
+        "last_name": "Patel",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28133,
+        "employee_clock_in_time": "March 24, 2025 10:27 am",
+        "employee_clock_out_time": "March 24, 2025 3:35 pm",
+        "first_name": "Sai Venkata",
+        "last_name": "Dhanush Amirinenii",
+        "shift_sum": "5:08"
+      },
+      {
+        "shift_id": 28132,
+        "employee_clock_in_time": "March 24, 2025 10:02 am",
+        "employee_clock_out_time": None,
+        "first_name": "Ibiye",
+        "last_name": "Bright",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28131,
+        "employee_clock_in_time": "March 24, 2025 10:00 am",
+        "employee_clock_out_time": "March 24, 2025 3:01 pm",
+        "first_name": "McKenzie",
+        "last_name": "Lynn Kovach",
+        "shift_sum": "5:00"
+      },
+      {
+        "shift_id": 28130,
+        "employee_clock_in_time": "March 24, 2025 10:00 am",
+        "employee_clock_out_time": "March 24, 2025 5:00 pm",
+        "first_name": "Nithish Reddy",
+        "last_name": "Mannem",
+        "shift_sum": "6:59"
+      },
+      {
+        "shift_id": 28128,
+        "employee_clock_in_time": "March 24, 2025 10:00 am",
+        "employee_clock_out_time": None,
+        "first_name": "Sanath",
+        "last_name": "Desai",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28129,
+        "employee_clock_in_time": "March 24, 2025 10:00 am",
+        "employee_clock_out_time": "March 24, 2025 3:00 pm",
+        "first_name": "Sanath",
+        "last_name": "Desai",
+        "shift_sum": "5:00"
+      },
+      {
+        "shift_id": 28127,
+        "employee_clock_in_time": "March 24, 2025 10:00 am",
+        "employee_clock_out_time": None,
+        "first_name": "valerie",
+        "last_name": "Osaweedoh",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28126,
+        "employee_clock_in_time": "March 24, 2025 9:56 am",
+        "employee_clock_out_time": "March 24, 2025 4:59 pm",
+        "first_name": "Sai Swethan",
+        "last_name": "Durganala",
+        "shift_sum": "7:02"
+      },
+      {
+        "shift_id": 28125,
+        "employee_clock_in_time": "March 24, 2025 9:05 am",
+        "employee_clock_out_time": None,
+        "first_name": "Sarah",
+        "last_name": "Patil",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28124,
+        "employee_clock_in_time": "March 24, 2025 9:03 am",
+        "employee_clock_out_time": "March 24, 2025 4:05 pm",
+        "first_name": "Hepsiba Grace",
+        "last_name": "Boddu",
+        "shift_sum": "7:01"
+      },
+      {
+        "shift_id": 28123,
+        "employee_clock_in_time": "March 24, 2025 9:00 am",
+        "employee_clock_out_time": "March 24, 2025 4:08 pm",
+        "first_name": "Rakshitha Reddy",
+        "last_name": "Potu",
+        "shift_sum": "7:08"
+      },
+      {
+        "shift_id": 28122,
+        "employee_clock_in_time": "March 24, 2025 9:00 am",
+        "employee_clock_out_time": "March 24, 2025 4:00 pm",
         "first_name": "MeherSuneel",
         "last_name": "Meesala",
         "shift_sum": "7:00"
       },
       {
-        "shift_id": 27460,
-        "employee_clock_in_time": "February 27, 2025 9:00 am",
-        "employee_clock_out_time": "February 27, 2025 4:00 pm",
-        "first_name": "MeherSuneel",
-        "last_name": "Meesala",
-        "shift_sum": "7:00"
+        "shift_id": 28121,
+        "employee_clock_in_time": "March 24, 2025 8:59 am",
+        "employee_clock_out_time": None,
+        "first_name": "Jonathan.",
+        "last_name": "Almeida",
+        "shift_sum": "00:00"
       },
       {
-        "shift_id": 27398,
-        "employee_clock_in_time": "February 26, 2025 9:00 am",
-        "employee_clock_out_time": "February 26, 2025 4:00 pm",
-        "first_name": "MeherSuneel",
-        "last_name": "Meesala",
-        "shift_sum": "7:00"
+        "shift_id": 28120,
+        "employee_clock_in_time": "March 24, 2025 8:59 am",
+        "employee_clock_out_time": None,
+        "first_name": "Jonathan.",
+        "last_name": "Almeida",
+        "shift_sum": "00:00"
+      },
+      {
+        "shift_id": 28119,
+        "employee_clock_in_time": "March 24, 2025 8:59 am",
+        "employee_clock_out_time": "March 24, 2025 1:59 pm",
+        "first_name": "Haren",
+        "last_name": "Akula",
+        "shift_sum": "5:00"
+      },
+      {
+        "shift_id": 28118,
+        "employee_clock_in_time": "March 24, 2025 8:58 am",
+        "employee_clock_out_time": None,
+        "first_name": "Arpita",
+        "last_name": "Arpita LNU",
+        "shift_sum": "00:00"
       }
     ]
   }
